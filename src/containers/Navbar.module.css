@@ -1,0 +1,32 @@
+.header {
+  background-color: var(--color1);
+  min-width: 100vw;
+  max-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: calc(93px * var(--factor));
+  color: var(--color2);
+  position: fixed;
+  top: 0;
+}
+
+.divLogo {
+  position: relative;
+  left: calc(141px * var(--factor));
+}
+
+.header nav ul {
+  font-size: calc(25px * var(--factor));
+  display: flex;
+  gap: calc(93px * var(--factor));
+}
+
+.divButton button {
+  position: relative;
+  font-size: calc(30px * var(--factor));
+  padding: calc(10px * var(--factor)) calc(21px * var(--factor));
+  background: linear-gradient(to right, var(--color3), var(--color4));
+  color: var(--color2);
+  right: calc(47px * var(--factor));
+}

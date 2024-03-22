@@ -1,0 +1,54 @@
+.section {
+  display: flex;
+  min-width: 100vw;
+  max-width: 100vw;
+  min-height: calc(863px * var(--factor));
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  min-width: calc(1620px * var(--factor));
+  color: var(--color2);
+}
+
+.subtitle {
+  border-left: calc(6.5px * var(--factor)) solid var(--color3);
+}
+
+.subtitle h2 {
+  margin-left: calc(16px * var(--factor));
+  font-size: calc(49px * var(--factor));
+  font-weight: 100;
+}
+
+.title h1 {
+  font-size: calc(94px * var(--factor));
+  font-weight: 500;
+}
+
+.title span {
+  color: var(--color3);
+}
+
+.container p {
+  width: calc(900px * var(--factor));
+  font-size: calc(23px * var(--factor));
+}
+
+.button {
+  margin-top: calc(26px * var(--factor));
+}
+
+.button button {
+  font-size: calc(24px * var(--factor));
+  padding: calc(8px * var(--factor)) calc(30px * var(--factor));
+  background: linear-gradient(to left, var(--color3), var(--color4));
+  color: var(--color2);
+}

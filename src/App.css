@@ -1,0 +1,34 @@
+html {
+  --color1: #737373;
+  --color2: #ffffff;
+  --color3: #00baff;
+  --color4: #2071d2;
+  --color5: #1b1b1b;
+  --factor: 1;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body a {
+  text-decoration: none;
+}
+
+body ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body button {
+  padding: 0;
+  border: 0;
+}
+
+h2,
+h1,
+p {
+  margin: 0;
+}
