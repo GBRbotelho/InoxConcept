@@ -5,7 +5,7 @@
   min-height: calc(863px * var(--factor));
   align-items: center;
   justify-content: center;
-  background-color: black;
+  background-color: var(--color5);
 }
 
 .container {

@@ -69,7 +69,7 @@
 .img2 {
   width: calc(404px * var(--factor));
   height: calc(304px * var(--factor));
-  background-color: aqua;
+  background-color: black;
 }
 
 .imgs2 {
@@ -80,7 +80,7 @@
 .img3 {
   width: calc(343px * var(--factor));
   height: calc(378px * var(--factor));
-  background-color: antiquewhite;
+  background-color: black;
 }
 
 .dataImg {
