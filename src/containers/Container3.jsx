@@ -32,8 +32,7 @@ export default function Container3() {
           </div>
           <div className={styles.data}>
             <h2>
-              Galpão
-              <br />
+              Galpão <br />
               industrial
             </h2>
             <p>
@@ -46,26 +45,28 @@ export default function Container3() {
               harmonia com a natureza e as tradições que passavam de geração em
               geração.
             </p>
-            <div className={styles.icons}>
-              <p>
-                Qualidade
-                <br />
-                garantida
-              </p>
-            </div>
-            <div className={styles.icons}>
-              <p>
-                Pagamento
-                <br />
-                simplificado
-              </p>
-            </div>
-            <div className={styles.icons}>
-              <p>
-                Materias
-                <br />
-                resistentes
-              </p>
+            <div className={styles.iconsDiv}>
+              <div className={styles.icons}>
+                <p>
+                  Qualidade
+                  <br />
+                  garantida
+                </p>
+              </div>
+              <div className={styles.icons}>
+                <p>
+                  Pagamento
+                  <br />
+                  simplificado
+                </p>
+              </div>
+              <div className={styles.icons}>
+                <p>
+                  Materias
+                  <br />
+                  resistentes
+                </p>
+              </div>
             </div>
             <button>Fazer orçamento</button>
           </div>
