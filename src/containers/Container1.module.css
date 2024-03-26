@@ -52,3 +52,19 @@
   background: linear-gradient(to left, var(--color3), var(--color4));
   color: var(--color2);
 }
+
+@media (max-width: 1000px) {
+  .container {
+    min-width: 90vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    min-width: 90vw;
+    max-width: 90vw;
+  }
+  .container p {
+    width: 100%;
+  }
+}
