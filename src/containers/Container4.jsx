@@ -1,7 +1,23 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./Container4.module.css";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
 
 export default function Container4() {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  const handleWindowResize = () => {
+    setWindowWidth(window.innerWidth);
+  };
+
+  useEffect(() => {
+    // Adiciona um ouvinte de evento para redimensionamento da janela
+    window.addEventListener("resize", handleWindowResize);
+  }, []);
+
   return (
     <section className={styles.section}>
       <div className={styles.container}>
@@ -9,66 +25,122 @@ export default function Container4() {
           Obras <span>Concluidas</span>
         </h2>
         <div className={styles.cards}>
-          <div className={styles.card}>
-            <div className={styles.img}></div>
-            <div className={styles.subtitleCard}>
-              <span>Obra 1</span>
-              <button>Ver mais</button>
-            </div>
-            <div className={styles.dataCard}>
-              <div className={styles.geo}>
-                <p>Sumaré</p>
+          <Swiper
+            modules={[Autoplay, Pagination]}
+            spaceBetween="2%"
+            slidesPerView={
+              (windowWidth > 1000 && 4) ||
+              (windowWidth > 650 && windowWidth <= 1000 && 3) ||
+              (windowWidth > 400 && windowWidth <= 650 && 2) ||
+              (windowWidth <= 400 && 1)
+            }
+            autoplay={1000}
+            pagination={{ clickable: true }}
+            loop={true}
+          >
+            <SwiperSlide className={styles.swiperCard}>
+              <div className={styles.card}>
+                <div className={styles.img}></div>
+                <div className={styles.subtitleCard}>
+                  <span>Obra 1</span>
+                  <button>Ver mais</button>
+                </div>
+                <div className={styles.dataCard}>
+                  <div className={styles.geo}>
+                    <p>Sumaré</p>
+                  </div>
+                  <div className={styles.metric}>
+                    <p>10.000</p>
+                  </div>
+                </div>
               </div>
-              <div className={styles.metric}>
-                <p>10.000</p>
+            </SwiperSlide>
+            <SwiperSlide className={styles.swiperCard}>
+              <div className={styles.card}>
+                <div className={styles.img}></div>
+                <div className={styles.subtitleCard}>
+                  <span>Obra 1</span>
+                  <button>Ver mais</button>
+                </div>
+                <div className={styles.dataCard}>
+                  <div className={styles.geo}>
+                    <p>Sumaré</p>
+                  </div>
+                  <div className={styles.metric}>
+                    <p>10.000</p>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div className={styles.card}>
-            <div className={styles.img}></div>
-            <div className={styles.subtitleCard}>
-              <span>Obra 1</span>
-              <button>Ver mais</button>
-            </div>
-            <div className={styles.dataCard}>
-              <div className={styles.geo}>
-                <p>Sumaré</p>
+            </SwiperSlide>
+            <SwiperSlide className={styles.swiperCard}>
+              <div className={styles.card}>
+                <div className={styles.img}></div>
+                <div className={styles.subtitleCard}>
+                  <span>Obra 1</span>
+                  <button>Ver mais</button>
+                </div>
+                <div className={styles.dataCard}>
+                  <div className={styles.geo}>
+                    <p>Sumaré</p>
+                  </div>
+                  <div className={styles.metric}>
+                    <p>10.000</p>
+                  </div>
+                </div>
               </div>
-              <div className={styles.metric}>
-                <p>10.000</p>
+            </SwiperSlide>
+            <SwiperSlide className={styles.swiperCard}>
+              <div className={styles.card}>
+                <div className={styles.img}></div>
+                <div className={styles.subtitleCard}>
+                  <span>Obra 1</span>
+                  <button>Ver mais</button>
+                </div>
+                <div className={styles.dataCard}>
+                  <div className={styles.geo}>
+                    <p>Sumaré</p>
+                  </div>
+                  <div className={styles.metric}>
+                    <p>10.000</p>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div className={styles.card}>
-            <div className={styles.img}></div>
-            <div className={styles.subtitleCard}>
-              <span>Obra 1</span>
-              <button>Ver mais</button>
-            </div>
-            <div className={styles.dataCard}>
-              <div className={styles.geo}>
-                <p>Sumaré</p>
+            </SwiperSlide>
+            <SwiperSlide className={styles.swiperCard}>
+              <div className={styles.card}>
+                <div className={styles.img}></div>
+                <div className={styles.subtitleCard}>
+                  <span>Obra 1</span>
+                  <button>Ver mais</button>
+                </div>
+                <div className={styles.dataCard}>
+                  <div className={styles.geo}>
+                    <p>Sumaré</p>
+                  </div>
+                  <div className={styles.metric}>
+                    <p>10.000</p>
+                  </div>
+                </div>
               </div>
-              <div className={styles.metric}>
-                <p>10.000</p>
+            </SwiperSlide>
+            <SwiperSlide className={styles.swiperCard}>
+              <div className={styles.card}>
+                <div className={styles.img}></div>
+                <div className={styles.subtitleCard}>
+                  <span>Obra 1</span>
+                  <button>Ver mais</button>
+                </div>
+                <div className={styles.dataCard}>
+                  <div className={styles.geo}>
+                    <p>Sumaré</p>
+                  </div>
+                  <div className={styles.metric}>
+                    <p>10.000</p>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div className={styles.card}>
-            <div className={styles.img}></div>
-            <div className={styles.subtitleCard}>
-              <span>Obra 1</span>
-              <button>Ver mais</button>
-            </div>
-            <div className={styles.dataCard}>
-              <div className={styles.geo}>
-                <p>Sumaré</p>
-              </div>
-              <div className={styles.metric}>
-                <p>10.000</p>
-              </div>
-            </div>
-          </div>
+            </SwiperSlide>
+          </Swiper>
         </div>
       </div>
     </section>

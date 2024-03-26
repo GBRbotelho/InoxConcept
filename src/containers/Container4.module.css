@@ -28,7 +28,6 @@
 
 .cards {
   display: flex;
-  gap: calc(85px * var(--factor));
   min-width: calc(1780px * var(--factor));
   max-width: calc(1780px * var(--factor));
   overflow-x: hidden;
@@ -39,8 +38,9 @@
 }
 
 .img {
-  width: calc(420px * var(--factor));
-  height: calc(420px * var(--factor));
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1/1;
   background-color: black;
 }
 
@@ -66,6 +66,7 @@
 .dataCard {
   margin-top: calc(5px * var(--factor));
   display: flex;
+  width: 100%;
   justify-content: space-between;
 }
 
@@ -75,4 +76,13 @@
 
 .metric p {
   font-size: calc(22px * var(--factor));
+}
+
+@media (max-width: 1000px) {
+  .cards {
+    display: flex;
+    min-width: 90vw;
+    width: 80vw;
+    max-width: 80vw;
+  }
 }

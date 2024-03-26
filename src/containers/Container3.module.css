@@ -133,7 +133,6 @@
   .container ul {
     height: 40px;
     display: flex;
-    gap: unset;
     justify-content: space-evenly;
     width: 80vw;
     overflow-x: scroll;
@@ -163,7 +162,6 @@
   }
 
   .imgs {
-    width: 80vw;
     justify-content: center;
   }
 
@@ -178,8 +176,8 @@
     justify-content: space-between;
   }
 
-  .icons {
-    width: 120px;
+  .icons p {
+    width: min-content;
   }
 }
 
