@@ -303,3 +303,9 @@ p {
     --factor: 0.55;
   }
 }
+
+@media (max-width: 500px) {
+  html {
+    --factor: 0.6;
+  }
+}

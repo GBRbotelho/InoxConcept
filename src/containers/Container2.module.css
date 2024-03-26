@@ -50,3 +50,51 @@
   background: linear-gradient(to left, var(--color3), var(--color4));
   color: var(--color2);
 }
+
+@media (max-width: 1000px) {
+  .section {
+    min-height: auto;
+    height: auto;
+  }
+
+  .container {
+    margin: 50px 0;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .divData {
+    width: 80%;
+  }
+
+  .divData button {
+    margin-top: 20px;
+  }
+
+  .divData p {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 650px) {
+  .divData {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .divData h2 {
+    width: 95%;
+  }
+
+  .divData p {
+    width: 90vw;
+  }
+}
+
+@media (max-width: 390px) {
+  .divImg {
+    display: none;
+  }
+}
