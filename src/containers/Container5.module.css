@@ -65,3 +65,27 @@
   height: calc(325px * var(--factor));
   background-color: black;
 }
+
+@media (max-width: 1000px) {
+  .content {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 30px;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 500px) {
+  .content {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 30px;
+    align-items: flex-start;
+  }
+
+  .maps {
+    width: 95vw;
+    height: calc(325px * var(--factor));
+    background-color: black;
+  }
+}
