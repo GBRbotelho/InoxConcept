@@ -28,6 +28,16 @@
   gap: calc(93px * var(--factor));
 }
 
+.header nav ul li {
+  transition: 0.2s;
+}
+
+.header nav ul li:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  color: var(--color3);
+}
+
 .divButton button {
   position: relative;
   font-size: calc(30px * var(--factor));
@@ -35,6 +45,13 @@
   background: linear-gradient(to right, var(--color3), var(--color4));
   color: var(--color2);
   right: calc(47px * var(--factor));
+  transition: 0.2s;
+}
+
+.divButton button:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  border-radius: calc(10px * var(--factor));
 }
 
 .menuHamburger {

@@ -48,10 +48,10 @@ export default function Navbar() {
       <div className={styles.divLogo}>Logo</div>
       <nav>
         <ul>
-          <li>Home</li>
-          <li>Produtos</li>
-          <li>Obras</li>
-          <li>Contato</li>
+          <li onClick={() => scrollToSection("home")}>Home</li>
+          <li onClick={() => scrollToSection("produtos")}>Produtos</li>
+          <li onClick={() => scrollToSection("obras")}>Obras</li>
+          <li onClick={() => scrollToSection("contato")}>Contato</li>
         </ul>
       </nav>
       <div className={styles.divButton}>
