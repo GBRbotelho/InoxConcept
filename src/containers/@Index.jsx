@@ -10,7 +10,7 @@ import Container5 from "./Container5.jsx";
 export default function Index() {
   return (
     <main className={styles.main}>
-      {/* <Navbar /> */}
+      <Navbar />
       <Container1 />
       <Container2 />
       <Container3 />

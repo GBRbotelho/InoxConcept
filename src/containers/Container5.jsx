@@ -3,7 +3,7 @@ import styles from "./Container5.module.css";
 
 export default function Container5() {
   return (
-    <section className={styles.section}>
+    <section className={styles.section} id="contato">
       <div className={styles.container}>
         <h1 className={styles.title}>
           Entre em <span>contato</span>

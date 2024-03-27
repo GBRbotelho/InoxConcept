@@ -3,7 +3,7 @@ import styles from "./Container2.module.css";
 
 export default function Container2() {
   return (
-    <section className={styles.section}>
+    <section className={styles.section} id="sobre">
       <div className={styles.container}>
         <div className={styles.divImg}></div>
         <div className={styles.divData}>

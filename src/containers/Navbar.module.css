@@ -9,6 +9,12 @@
   color: var(--color2);
   position: fixed;
   top: 0;
+  z-index: 10;
+  transition: 0.2s;
+}
+
+.hidden {
+  top: -120px;
 }
 
 .divLogo {
@@ -29,4 +35,93 @@
   background: linear-gradient(to right, var(--color3), var(--color4));
   color: var(--color2);
   right: calc(47px * var(--factor));
+}
+
+.menuHamburger {
+  width: 18px;
+  height: 18px;
+  display: none;
+  position: relative;
+  right: calc(47px * var(--factor));
+}
+
+.dropdown {
+  display: none;
+  width: 60vw;
+  position: absolute;
+  top: 100%;
+  opacity: 0;
+  right: -500px;
+  box-shadow: 0 2px 4px rgba(134, 123, 123, 0.3);
+  transition: 0.5s;
+}
+
+.dropdown ul {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0px;
+  background-color: rgba(0, 0, 0, 0.8);
+  gap: 0px;
+}
+
+.dropdown li {
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
+}
+
+.dropdown.open {
+  display: block;
+  opacity: 1;
+  right: 0px;
+}
+
+.dropdown.open li:active {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+}
+
+.dropdown .button {
+  display: block;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dropdown .button button {
+  font-size: 18px;
+  padding: calc(10px * var(--factor)) calc(21px * var(--factor));
+  background: linear-gradient(to right, var(--color3), var(--color4));
+  color: var(--color2);
+}
+@media (max-width: 1000px) {
+  .menuHamburger {
+    display: none;
+  }
+
+  .dropdown {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .header nav {
+    display: none;
+  }
+
+  .divButton {
+    display: none;
+  }
+
+  .menuHamburger {
+    display: block;
+  }
+
+  .dropdown {
+    display: block;
+  }
 }
