@@ -68,11 +68,11 @@ export default function Navbar() {
           <li onClick={() => scrollToSection("produtos")}>Produtos</li>
           <li onClick={() => scrollToSection("obras")}>Obras</li>
           <li onClick={() => scrollToSection("contato")}>Contato</li>
-          <div className={styles.button}>
+          <li className={styles.button}>
             <a>
               <button>Orçamento</button>
             </a>
-          </div>
+          </li>
         </ul>
       </div>
     </header>

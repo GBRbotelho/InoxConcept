@@ -64,7 +64,7 @@
 
 .dropdown {
   display: none;
-  width: 60vw;
+  width: 300px;
   position: absolute;
   top: 100%;
   opacity: 0;
