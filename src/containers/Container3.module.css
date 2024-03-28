@@ -116,9 +116,33 @@
   width: calc(760px * var(--factor));
 }
 
+.iconsDiv {
+  display: flex;
+  flex-direction: column;
+  gap: calc(20px * var(--factor));
+  margin-top: calc(20px * var(--factor));
+}
+
+.icons {
+  display: flex;
+  height: min-content;
+  align-items: center;
+  gap: calc(8px * var(--factor));
+}
+
+.icon {
+  border: calc(2px * var(--factor)) var(--color2) solid;
+  border-radius: calc(14px * var(--factor));
+  padding: calc(3px * var(--factor));
+  height: calc(45px * var(--factor));
+  width: calc(45px * var(--factor));
+}
+
 .icons p {
   font-size: calc(23px * var(--factor));
   line-height: 1;
+  margin: 0;
+  width: min-content;
 }
 
 .data button {

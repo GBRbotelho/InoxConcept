@@ -5,3 +5,13 @@
   width: 100vw;
   height: 100vh;
 }
+
+button {
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  border-radius: calc(10px * var(--factor));
+}

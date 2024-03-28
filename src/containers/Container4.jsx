@@ -5,6 +5,8 @@ import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
+import Map from "../icons/Obras/Map";
+import Metros from "../icons/Obras/Metros";
 
 export default function Container4() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -34,7 +36,6 @@ export default function Container4() {
               (windowWidth > 400 && windowWidth <= 650 && 2) ||
               (windowWidth <= 400 && 1)
             }
-            autoplay={1000}
             pagination={{ clickable: true }}
             loop={true}
           >
@@ -47,10 +48,12 @@ export default function Container4() {
                 </div>
                 <div className={styles.dataCard}>
                   <div className={styles.geo}>
+                    <Map />
                     <p>Sumaré</p>
                   </div>
                   <div className={styles.metric}>
                     <p>10.000</p>
+                    <Metros />
                   </div>
                 </div>
               </div>
@@ -64,10 +67,12 @@ export default function Container4() {
                 </div>
                 <div className={styles.dataCard}>
                   <div className={styles.geo}>
+                    <Map />
                     <p>Sumaré</p>
                   </div>
                   <div className={styles.metric}>
                     <p>10.000</p>
+                    <Metros />
                   </div>
                 </div>
               </div>
@@ -81,10 +86,12 @@ export default function Container4() {
                 </div>
                 <div className={styles.dataCard}>
                   <div className={styles.geo}>
+                    <Map />
                     <p>Sumaré</p>
                   </div>
                   <div className={styles.metric}>
                     <p>10.000</p>
+                    <Metros />
                   </div>
                 </div>
               </div>
@@ -98,44 +105,12 @@ export default function Container4() {
                 </div>
                 <div className={styles.dataCard}>
                   <div className={styles.geo}>
+                    <Map />
                     <p>Sumaré</p>
                   </div>
                   <div className={styles.metric}>
                     <p>10.000</p>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide className={styles.swiperCard}>
-              <div className={styles.card}>
-                <div className={styles.img}></div>
-                <div className={styles.subtitleCard}>
-                  <span>Obra 1</span>
-                  <button>Ver mais</button>
-                </div>
-                <div className={styles.dataCard}>
-                  <div className={styles.geo}>
-                    <p>Sumaré</p>
-                  </div>
-                  <div className={styles.metric}>
-                    <p>10.000</p>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide className={styles.swiperCard}>
-              <div className={styles.card}>
-                <div className={styles.img}></div>
-                <div className={styles.subtitleCard}>
-                  <span>Obra 1</span>
-                  <button>Ver mais</button>
-                </div>
-                <div className={styles.dataCard}>
-                  <div className={styles.geo}>
-                    <p>Sumaré</p>
-                  </div>
-                  <div className={styles.metric}>
-                    <p>10.000</p>
+                    <Metros />
                   </div>
                 </div>
               </div>

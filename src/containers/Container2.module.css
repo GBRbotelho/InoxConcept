@@ -2,13 +2,14 @@
   display: flex;
   min-width: 100vw;
   max-width: 100vw;
-  min-height: calc(650px * var(--factor));
   align-items: center;
   justify-content: center;
   background-color: var(--color1);
+  z-index: -2;
 }
 
 .container {
+  margin: calc(200px * var(--factor)) 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,6 +22,17 @@
   width: calc(608px * var(--factor));
   height: calc(438px * var(--factor));
   background-color: black;
+  position: relative;
+}
+
+.svg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  top: calc(-100px * var(--factor));
+  left: calc(-250px * var(--factor));
+  z-index: -1;
 }
 
 .divData {

@@ -1,11 +1,16 @@
 import React from "react";
 import styles from "./Container2.module.css";
+import IconImg from "../icons/Sobre/IconImg";
 
 export default function Container2() {
   return (
     <section className={styles.section} id="sobre">
       <div className={styles.container}>
-        <div className={styles.divImg}></div>
+        <div className={styles.divImg}>
+          <div className={styles.svg}>
+            <IconImg />
+          </div>
+        </div>
         <div className={styles.divData}>
           <h2>
             Sobre <span>Nós</span>

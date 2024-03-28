@@ -30,10 +30,6 @@
   display: flex;
   min-width: calc(1780px * var(--factor));
   max-width: calc(1780px * var(--factor));
-  overflow-x: hidden;
-}
-
-.card {
   margin-top: calc(100px * var(--factor));
 }
 
@@ -64,18 +60,38 @@
 }
 
 .dataCard {
-  margin-top: calc(5px * var(--factor));
+  margin-top: calc(10px * var(--factor));
   display: flex;
   width: 100%;
   justify-content: space-between;
+  align-items: flex-end;
+}
+
+.geo {
+  display: flex;
+  align-items: flex-end;
 }
 
 .geo p {
   font-size: calc(24px * var(--factor));
 }
 
+.geo svg {
+  height: calc(35px * var(--factor));
+}
+
+.metric {
+  display: flex;
+  align-items: flex-end;
+  gap: calc(5px * var(--factor));
+}
+
 .metric p {
   font-size: calc(22px * var(--factor));
+}
+
+.metric svg {
+  height: calc(30px * var(--factor));
 }
 
 @media (max-width: 1000px) {

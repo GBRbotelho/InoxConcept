@@ -1,5 +1,8 @@
 import React from "react";
 import styles from "./Container3.module.css";
+import Icon1 from "../icons/Servicos/Icon1";
+import Icon2 from "../icons/Servicos/Icon2";
+import Icon3 from "../icons/Servicos/Icon3";
 
 export default function Container3() {
   return (
@@ -47,6 +50,9 @@ export default function Container3() {
             </p>
             <div className={styles.iconsDiv}>
               <div className={styles.icons}>
+                <div className={styles.icon}>
+                  <Icon1 />
+                </div>
                 <p>
                   Qualidade
                   <br />
@@ -54,6 +60,9 @@ export default function Container3() {
                 </p>
               </div>
               <div className={styles.icons}>
+                <div className={styles.icon}>
+                  <Icon2 />
+                </div>
                 <p>
                   Pagamento
                   <br />
@@ -61,6 +70,9 @@ export default function Container3() {
                 </p>
               </div>
               <div className={styles.icons}>
+                <div className={styles.icon}>
+                  <Icon3 />
+                </div>
                 <p>
                   Materias
                   <br />
