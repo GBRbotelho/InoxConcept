@@ -40,11 +40,25 @@
   gap: calc(141px * var(--factor));
 }
 
+.container li {
+  transition: 0.2s;
+}
+
+.container li:hover {
+  cursor: pointer;
+}
+
 .content {
   display: flex;
   justify-content: center;
   margin-top: calc(60px * var(--factor));
   gap: calc(88px * var(--factor));
+}
+
+.active {
+  transform: scale(1.1);
+  font-weight: 600;
+  border-bottom: calc(6px * var(--factor)) var(--color3) solid;
 }
 
 /* Data Imgs */
