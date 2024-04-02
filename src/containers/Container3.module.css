@@ -42,6 +42,7 @@
 
 .container li {
   transition: 0.2s;
+  white-space: nowrap;
 }
 
 .container li:hover {
@@ -84,6 +85,7 @@
   width: calc(404px * var(--factor));
   height: calc(304px * var(--factor));
   background-color: black;
+  border-radius: calc(22px * var(--factor));
 }
 
 .imgs2 {
@@ -169,10 +171,9 @@
 
 @media (max-width: 1000px) {
   .container ul {
-    height: 40px;
     display: flex;
     justify-content: space-evenly;
-    width: 80vw;
+    width: 90vw;
     overflow-x: scroll;
   }
 

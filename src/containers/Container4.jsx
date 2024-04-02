@@ -115,6 +115,44 @@ export default function Container4() {
                 </div>
               </div>
             </SwiperSlide>
+            <SwiperSlide className={styles.swiperCard}>
+              <div className={styles.card}>
+                <div className={styles.img}></div>
+                <div className={styles.subtitleCard}>
+                  <span>Obra 1</span>
+                  <button>Ver mais</button>
+                </div>
+                <div className={styles.dataCard}>
+                  <div className={styles.geo}>
+                    <Map />
+                    <p>Sumaré</p>
+                  </div>
+                  <div className={styles.metric}>
+                    <p>10.000</p>
+                    <Metros />
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className={styles.swiperCard}>
+              <div className={styles.card}>
+                <div className={styles.img}></div>
+                <div className={styles.subtitleCard}>
+                  <span>Obra 1</span>
+                  <button>Ver mais</button>
+                </div>
+                <div className={styles.dataCard}>
+                  <div className={styles.geo}>
+                    <Map />
+                    <p>Sumaré</p>
+                  </div>
+                  <div className={styles.metric}>
+                    <p>10.000</p>
+                    <Metros />
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
           </Swiper>
         </div>
       </div>
