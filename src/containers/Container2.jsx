@@ -9,13 +9,13 @@ export default function Container2() {
   return (
     <section className={styles.section} id="sobre">
       <div className={styles.container}>
-        <div className={styles.divImg}>
+        <div className={styles.divImg} data-aos="fade-up-right">
           <img src={SobreNos} alt="Imagem Empresa" />
           <div className={styles.svg}>
             <IconImg />
           </div>
         </div>
-        <div className={styles.divData}>
+        <div className={styles.divData} data-aos="fade-up-left">
           <h2>
             Sobre <span>Nós</span>
           </h2>

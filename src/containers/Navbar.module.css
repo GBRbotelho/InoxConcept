@@ -20,6 +20,8 @@
 .divLogo {
   position: relative;
   left: calc(141px * var(--factor));
+  width: calc(141px * var(--factor));
+  height: calc(80px * var(--factor));
 }
 
 .header nav ul {

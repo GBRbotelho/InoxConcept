@@ -28,10 +28,10 @@ export default function Container3() {
   return (
     <section className={styles.section} id="produtos">
       <div className={styles.container}>
-        <h2 className={styles.title}>
+        <h2 data-aos="fade-up" className={styles.title}>
           Nossos <span>Serviços</span>
         </h2>
-        <ul>
+        <ul data-aos="fade-up">
           <li
             id="option1"
             className={option === "option1" ? styles.active : ""}
@@ -55,7 +55,7 @@ export default function Container3() {
           </li>
         </ul>
         {option === "option1" && (
-          <div className={styles.content}>
+          <div className={styles.content} data-aos="zoom-in">
             <div className={styles.imgs}>
               <div className={styles.imgs1}>
                 <div className={styles.img1}>
@@ -124,7 +124,7 @@ export default function Container3() {
           </div>
         )}
         {option === "option2" && (
-          <div className={styles.content}>
+          <div className={styles.content} data-aos="zoom-in">
             <div className={styles.imgs}>
               <div className={styles.imgs1}>
                 <div className={styles.img1}>
@@ -193,7 +193,7 @@ export default function Container3() {
           </div>
         )}
         {option === "option3" && (
-          <div className={styles.content}>
+          <div className={styles.content} data-aos="zoom-in">
             <div className={styles.imgs}>
               <div className={styles.imgs1}>
                 <div className={styles.img1}>

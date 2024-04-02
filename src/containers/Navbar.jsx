@@ -3,6 +3,8 @@ import styles from "./Navbar.module.css";
 import Hamburger from "../icons/Hamburger";
 import Close from "../icons/Close";
 
+import Logo from "../assets/imgs/Logo.png";
+
 export default function Navbar() {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisible] = useState(true);
@@ -45,8 +47,10 @@ export default function Navbar() {
 
   return (
     <header className={`${styles.header} ${visible ? "" : styles.hidden}`}>
-      <div className={styles.divLogo}>Logo</div>
-      <nav>
+      <div className={styles.divLogo} data-aos="fade-down">
+        <img src={Logo} alt="Logo" />
+      </div>
+      <nav data-aos="fade-down">
         <ul>
           <li onClick={() => scrollToSection("home")}>Home</li>
           <li onClick={() => scrollToSection("produtos")}>Produtos</li>
@@ -54,10 +58,14 @@ export default function Navbar() {
           <li onClick={() => scrollToSection("contato")}>Contato</li>
         </ul>
       </nav>
-      <div className={styles.divButton}>
+      <div className={styles.divButton} data-aos="fade-down">
         <button>Orçamento</button>
       </div>
-      <div className={styles.menuHamburger} onClick={toggleDropdown}>
+      <div
+        className={styles.menuHamburger}
+        onClick={toggleDropdown}
+        data-aos="fade-down"
+      >
         {isDropdownOpen ? <Close /> : <Hamburger />}
       </div>
       <div
