@@ -24,6 +24,7 @@
   background-color: black;
   position: relative;
   transition: opacity 1s ease-in-out;
+  opacity: 0;
 }
 
 .isLoaded {

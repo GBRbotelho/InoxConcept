@@ -7,21 +7,24 @@ import SobreNos from "../assets/imgs/SobreNos.webp";
 
 export default function Container2() {
   const [time, setTime] = useState(false);
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  const handleWindowResize = () => {
+    setWindowWidth(window.innerWidth);
+  };
 
   useEffect(() => {
     const delayedAction = () => {
       setTime(true);
     };
-
+    window.addEventListener("resize", handleWindowResize);
     setTimeout(delayedAction, 1000);
   }, []);
+
   return (
     <section className={styles.section} id="sobre">
       <div className={styles.container}>
-        <div
-          className={`${styles.divImg} ${time ? styles.isLoaded : null}`}
-          data-aos="fade-up-right"
-        >
+        <div className={`${styles.divImg} ${time ? styles.isLoaded : null}`}>
           <img src={SobreNos} alt="Imagem Empresa" />
           <div className={styles.svg}>
             <IconImg />
