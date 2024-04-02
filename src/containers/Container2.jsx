@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./Container2.module.css";
 import IconImg from "../icons/Sobre/IconImg";
 
@@ -6,10 +6,22 @@ import IconImg from "../icons/Sobre/IconImg";
 import SobreNos from "../assets/imgs/SobreNos.webp";
 
 export default function Container2() {
+  const [time, setTime] = useState(false);
+
+  useEffect(() => {
+    const delayedAction = () => {
+      setTime(true);
+    };
+
+    setTimeout(delayedAction, 1000);
+  }, []);
   return (
     <section className={styles.section} id="sobre">
       <div className={styles.container}>
-        <div className={styles.divImg} data-aos="fade-up-right">
+        <div
+          className={`${styles.divImg} ${time ? styles.isLoaded : null}`}
+          data-aos="fade-up-right"
+        >
           <img src={SobreNos} alt="Imagem Empresa" />
           <div className={styles.svg}>
             <IconImg />

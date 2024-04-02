@@ -22,11 +22,13 @@
   width: calc(608px * var(--factor));
   height: calc(438px * var(--factor));
   background-color: black;
-  /* background-image: url("../assets/imgs/SobreNos.jpg");
-  background-size: cover; */
   position: relative;
+  transition: opacity 1s ease-in-out;
 }
 
+.isLoaded {
+  opacity: 1;
+}
 .divImg img {
   width: 100%;
   height: 100%;
