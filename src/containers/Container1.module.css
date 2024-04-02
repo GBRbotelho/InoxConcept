@@ -5,7 +5,8 @@
   min-height: calc(863px * var(--factor));
   align-items: center;
   justify-content: center;
-  background-color: var(--color5);
+  background-image: url("../assets/imgs/backgroundInox.webp");
+  background-size: cover;
 }
 
 .container {
