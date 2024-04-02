@@ -4,6 +4,19 @@ import Icon1 from "../icons/Servicos/Icon1";
 import Icon2 from "../icons/Servicos/Icon2";
 import Icon3 from "../icons/Servicos/Icon3";
 
+//Imgs
+import gcinox1 from "../assets/imgs/Servicos/gc inox/1.webp";
+import gcinox2 from "../assets/imgs/Servicos/gc inox/2.webp";
+import gcinox3 from "../assets/imgs/Servicos/gc inox/3.webp";
+
+import cinox1 from "../assets/imgs/Servicos/c inox/1.webp";
+import cinox2 from "../assets/imgs/Servicos/c inox/2.webp";
+import cinox3 from "../assets/imgs/Servicos/c inox/3.webp";
+
+import gcvidro1 from "../assets/imgs/Servicos/gc vidro/1.webp";
+import gcvidro2 from "../assets/imgs/Servicos/gc vidro/2.webp";
+import gcvidro3 from "../assets/imgs/Servicos/gc vidro/3.webp";
+
 export default function Container3() {
   const [option, setOption] = useState("option1");
 
@@ -24,45 +37,55 @@ export default function Container3() {
             className={option === "option1" ? styles.active : ""}
             onClick={handleClick}
           >
-            Galpão 1
+            Guarda Corpo de Vidro
           </li>
           <li
             id="option2"
             className={option === "option2" ? styles.active : ""}
             onClick={handleClick}
           >
-            Galpão 2
+            Guarda Corpo em Inox
+          </li>
+          <li
+            id="option3"
+            className={option === "option3" ? styles.active : ""}
+            onClick={handleClick}
+          >
+            Corrimão em Inox
           </li>
         </ul>
         {option === "option1" && (
           <div className={styles.content}>
             <div className={styles.imgs}>
               <div className={styles.imgs1}>
-                <div className={styles.img1}></div>
-                <div className={styles.img2}></div>
+                <div className={styles.img1}>
+                  <img src={gcvidro2} alt="Imagem em vidro" />
+                </div>
+                <div className={styles.img2}>
+                  <img src={gcvidro1} alt="Imagem em vidro" />
+                </div>
               </div>
               <div className={styles.imgs2}>
-                <div className={styles.img3}></div>
+                <div className={styles.img3}>
+                  <img src={gcvidro3} alt="Imagem em vidro" />
+                </div>
                 <div className={styles.dataImg}>
-                  <h1>+20</h1>
+                  <h1>+8</h1>
                   <p>de Experiencia</p>
                 </div>
               </div>
             </div>
             <div className={styles.data}>
-              <h2>
-                Galpão <br />
-                industrial 1
-              </h2>
+              <h2>Guarda Corpo de Vidro</h2>
               <p>
-                Numa pequena cidade à beira-mar, o tempo parecia parar. As ruas
-                estreitas, adornadas por casas coloridas de estilo colonial,
-                serpenteavam em direção ao oceano, onde as ondas quebravam
-                suavemente na costa.
-                <br />
-                Os habitantes, em sua maioria pescadores e artesãos, viviam em
-                harmonia com a natureza e as tradições que passavam de geração
-                em geração.
+                Imagine uma vista deslumbrante, capturada em cada detalhe do seu
+                espaço. Nosso serviço de guarda corpo em vidro para clientes de
+                alto padrão e construtoras oferece não apenas segurança, mas uma
+                experiência visual incomparável. <br /> Com designs exclusivos e
+                materiais de primeira linha, elevamos o conceito de elegância e
+                modernidade. Deixe-nos moldar o seu ambiente com transparência e
+                sofisticação, onde cada linha e cada brilho refletem o requinte
+                que você merece.
               </p>
               <div className={styles.iconsDiv}>
                 <div className={styles.icons}>
@@ -104,31 +127,101 @@ export default function Container3() {
           <div className={styles.content}>
             <div className={styles.imgs}>
               <div className={styles.imgs1}>
-                <div className={styles.img1}></div>
-                <div className={styles.img2}></div>
+                <div className={styles.img1}>
+                  <img src={gcinox1} alt="Imagem em Inox" />
+                </div>
+                <div className={styles.img2}>
+                  <img src={gcinox3} alt="Imagem em Inox" />
+                </div>
               </div>
               <div className={styles.imgs2}>
-                <div className={styles.img3}></div>
+                <div className={styles.img3}>
+                  <img src={gcinox2} alt="Imagem em Inox" />
+                </div>
                 <div className={styles.dataImg}>
-                  <h1>+20</h1>
+                  <h1>+8</h1>
                   <p>de Experiencia</p>
                 </div>
               </div>
             </div>
             <div className={styles.data}>
-              <h2>
-                Galpão <br />
-                industrial 2
-              </h2>
+              <h2>Guarda Corpo em Inox</h2>
               <p>
-                Numa pequena cidade à beira-mar, o tempo parecia parar. As ruas
-                estreitas, adornadas por casas coloridas de estilo colonial,
-                serpenteavam em direção ao oceano, onde as ondas quebravam
-                suavemente na costa.
-                <br />
-                Os habitantes, em sua maioria pescadores e artesãos, viviam em
-                harmonia com a natureza e as tradições que passavam de geração
-                em geração.
+                Conheça o novo padrão de luxo e segurança para o seu espaço.
+                Nosso serviço de guarda-corpo em inox para clientes exigentes e
+                construtoras oferece mais do que uma simples proteção - é um
+                conjunto de estilo e sofisticação.
+                <br /> Com linhas impecáveis e um acabamento premium, elevamos o
+                conceito de elegância. Deixe-nos moldar o seu ambiente com
+                precisão e refinamento, onde cada detalhe reflete a excelência
+                que você merece.
+              </p>
+              <div className={styles.iconsDiv}>
+                <div className={styles.icons}>
+                  <div className={styles.icon}>
+                    <Icon1 />
+                  </div>
+                  <p>
+                    Qualidade
+                    <br />
+                    garantida
+                  </p>
+                </div>
+                <div className={styles.icons}>
+                  <div className={styles.icon}>
+                    <Icon2 />
+                  </div>
+                  <p>
+                    Pagamento
+                    <br />
+                    simplificado
+                  </p>
+                </div>
+                <div className={styles.icons}>
+                  <div className={styles.icon}>
+                    <Icon3 />
+                  </div>
+                  <p>
+                    Materias
+                    <br />
+                    resistentes
+                  </p>
+                </div>
+              </div>
+              <button>Fazer orçamento</button>
+            </div>
+          </div>
+        )}
+        {option === "option3" && (
+          <div className={styles.content}>
+            <div className={styles.imgs}>
+              <div className={styles.imgs1}>
+                <div className={styles.img1}>
+                  <img src={cinox3} alt="Imagem em Inox" />
+                </div>
+                <div className={styles.img2}>
+                  <img src={cinox2} alt="Imagem em Inox" />
+                </div>
+              </div>
+              <div className={styles.imgs2}>
+                <div className={styles.img3}>
+                  <img src={cinox1} alt="Imagem em Inox" />
+                </div>
+                <div className={styles.dataImg}>
+                  <h1>+8</h1>
+                  <p>de Experiencia</p>
+                </div>
+              </div>
+            </div>
+            <div className={styles.data}>
+              <h2>Corrimão em Inox</h2>
+              <p>
+                Descubra a essência da elegância e da praticidade com nosso
+                corrimão em inox. Mais do que uma simples estrutura de suporte a
+                fusão perfeita entre funcionalidade e beleza. <br /> Com
+                acabamento impecável e durabilidade incomparável, elevamos o
+                conceito de elegância moderna. Onde cada linha reflete o padrão
+                que você busca para o seu espaço."
               </p>
               <div className={styles.iconsDiv}>
                 <div className={styles.icons}>

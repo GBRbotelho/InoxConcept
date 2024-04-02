@@ -23,13 +23,13 @@ export default function Container1() {
         </div>
         <div className={styles.title}>
           <h1>
-            Estruturas <span>Metálicas</span>
+            Guarda corpo e <span>corrimão</span>
           </h1>
         </div>
         <div>
           <p>
-            Para prevenir e tratar mais de 400 sintomas físicos e emocionais de
-            maneira segura e totalmente natural!
+            A Inox concept é uma empresa do ramo da serralheria que está situada
+            na cidade de Campinas/SP.
           </p>
         </div>
         <div className={styles.button}>

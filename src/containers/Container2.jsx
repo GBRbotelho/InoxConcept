@@ -20,13 +20,12 @@ export default function Container2() {
             Sobre <span>Nós</span>
           </h2>
           <p>
-            Numa pequena cidade à beira-mar, o tempo parecia parar. As ruas
-            estreitas, adornadas por casas coloridas de estilo colonial,
-            serpenteavam em direção ao oceano, onde as ondas quebravam
-            suavemente na costa. <br />
-            Os habitantes, em sua maioria pescadores e artesãos, viviam em
-            harmonia com a natureza e as tradições que passavam de geração em
-            geração.
+            Desde 2016, desempenho e qualidade são nossa marca registrada. Com
+            uma equipe altamente qualificada e foco em inovação, transformamos
+            espaços industriais, comerciais e residenciais em obras-primas de
+            aço inoxidável e alumínio. O que nos diferencia? É o nosso
+            comprometimento inabalável com cada serviço prestado aos nossos
+            clientes.
           </p>
           <button>Fazer orçamento</button>
         </div>
