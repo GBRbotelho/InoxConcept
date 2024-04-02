@@ -10,7 +10,7 @@ export default function Container2() {
     <section className={styles.section} id="sobre">
       <div className={styles.container}>
         <div className={styles.divImg}>
-          <img src={SobreNos} alt="" />
+          <img src={SobreNos} alt="Imagem Empresa" />
           <div className={styles.svg}>
             <IconImg />
           </div>
