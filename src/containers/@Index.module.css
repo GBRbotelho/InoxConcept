@@ -17,3 +17,8 @@ button:hover {
   cursor: pointer;
   border-radius: calc(10px * var(--factor));
 }
+
+img {
+  width: 100%;
+  height: 100%;
+}

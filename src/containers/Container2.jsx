@@ -2,11 +2,15 @@ import React from "react";
 import styles from "./Container2.module.css";
 import IconImg from "../icons/Sobre/IconImg";
 
+//Import Img
+import SobreNos from "../assets/imgs/SobreNos.webp";
+
 export default function Container2() {
   return (
     <section className={styles.section} id="sobre">
       <div className={styles.container}>
         <div className={styles.divImg}>
+          <img src={SobreNos} alt="" />
           <div className={styles.svg}>
             <IconImg />
           </div>
