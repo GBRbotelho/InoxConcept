@@ -38,6 +38,11 @@
   aspect-ratio: 1/1;
   background-color: black;
   overflow: hidden;
+  border-radius: calc(18px * var(--factor));
+}
+
+.img img {
+  border-radius: calc(15px * var(--factor));
 }
 
 .subtitleCard {
