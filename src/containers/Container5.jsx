@@ -7,11 +7,11 @@ import Instagram from "../icons/Contato/Instagram";
 export default function Container5() {
   return (
     <section className={styles.section} id="contato">
-      <div className={styles.container} data-aos="fade-up">
-        <h1 className={styles.title}>
+      <div className={styles.container}>
+        <h1 className={styles.title} data-aos="fade-up">
           Entre em <span>contato</span>
         </h1>
-        <div className={styles.content}>
+        <div className={styles.content} data-aos="fade-up">
           <div className={styles.data}>
             <div className={styles.card}>
               <div className={styles.icon}>

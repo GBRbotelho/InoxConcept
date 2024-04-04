@@ -8,6 +8,15 @@ import "swiper/css/scrollbar";
 import Map from "../icons/Obras/Map";
 import Metros from "../icons/Obras/Metros";
 
+//Imgs
+import GreenVille from "../assets/imgs/Obras/GreenVille/greenVille.webp";
+import AlphaVille from "../assets/imgs/Obras/AlphaVille/Alphaville.webp";
+import CondomínioColinas from "../assets/imgs/Obras/Condomínio Colinas/Condomínio Colinas.webp";
+import CondomínioPanini from "../assets/imgs/Obras/Condomínio Panini/Condomínio Panini.webp";
+import MontBlanc from "../assets/imgs/Obras/Mont Blanc/Mont Blanc.webp";
+import NovaHolanda from "../assets/imgs/Obras/Condomínio Nova Holanda/Condomínio Residencial Nova Holanda.webp";
+import Monterrey from "../assets/imgs/Obras/Condomínio Monterrey/Condomínio Monterrey.webp";
+
 export default function Container4() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
@@ -41,115 +50,154 @@ export default function Container4() {
           >
             <SwiperSlide className={styles.swiperCard}>
               <div className={styles.card}>
-                <div className={styles.img}></div>
+                <div className={styles.img}>
+                  <img src={GreenVille} alt="Obra GreenVille" />
+                </div>
                 <div className={styles.subtitleCard}>
-                  <span>Obra 1</span>
+                  <span>Condomínio Green Ville</span>
                   <button>Ver mais</button>
                 </div>
                 <div className={styles.dataCard}>
                   <div className={styles.geo}>
                     <Map />
-                    <p>Sumaré</p>
+                    <p>Paulinia</p>
                   </div>
-                  <div className={styles.metric}>
+                  {/* <div className={styles.metric}>
                     <p>10.000</p>
                     <Metros />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide className={styles.swiperCard}>
               <div className={styles.card}>
-                <div className={styles.img}></div>
+                <div className={styles.img}>
+                  <img src={AlphaVille} alt="Obra Alphaville Dom Pedro 3" />
+                </div>
                 <div className={styles.subtitleCard}>
-                  <span>Obra 1</span>
+                  <span>Alphaville Dom Pedro 3</span>
                   <button>Ver mais</button>
                 </div>
                 <div className={styles.dataCard}>
                   <div className={styles.geo}>
                     <Map />
-                    <p>Sumaré</p>
+                    <p>Campinas</p>
                   </div>
-                  <div className={styles.metric}>
+                  {/* <div className={styles.metric}>
                     <p>10.000</p>
                     <Metros />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide className={styles.swiperCard}>
               <div className={styles.card}>
-                <div className={styles.img}></div>
+                <div className={styles.img}>
+                  <img
+                    src={CondomínioColinas}
+                    alt="Obra Condomínio Colinas de São Pedro"
+                  />
+                </div>
                 <div className={styles.subtitleCard}>
-                  <span>Obra 1</span>
+                  <span>Colinas de São Pedro</span>
                   <button>Ver mais</button>
                 </div>
                 <div className={styles.dataCard}>
                   <div className={styles.geo}>
                     <Map />
-                    <p>Sumaré</p>
+                    <p>Pedreira</p>
                   </div>
-                  <div className={styles.metric}>
+                  {/* <div className={styles.metric}>
                     <p>10.000</p>
                     <Metros />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide className={styles.swiperCard}>
               <div className={styles.card}>
-                <div className={styles.img}></div>
+                <div className={styles.img}>
+                  <img src={CondomínioPanini} alt="Obra Condomínio Panini" />
+                </div>
                 <div className={styles.subtitleCard}>
-                  <span>Obra 1</span>
+                  <span>Condomínio Panini</span>
                   <button>Ver mais</button>
                 </div>
                 <div className={styles.dataCard}>
                   <div className={styles.geo}>
                     <Map />
-                    <p>Sumaré</p>
+                    <p>Jaguariuna</p>
                   </div>
-                  <div className={styles.metric}>
+                  {/* <div className={styles.metric}>
                     <p>10.000</p>
                     <Metros />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide className={styles.swiperCard}>
               <div className={styles.card}>
-                <div className={styles.img}></div>
+                <div className={styles.img}>
+                  <img src={MontBlanc} alt="Obra Condomínio Mont Blanc" />
+                </div>
                 <div className={styles.subtitleCard}>
-                  <span>Obra 1</span>
+                  <span>Condomínio Mont Blanc</span>
                   <button>Ver mais</button>
                 </div>
                 <div className={styles.dataCard}>
                   <div className={styles.geo}>
                     <Map />
-                    <p>Sumaré</p>
+                    <p>Campinas</p>
                   </div>
-                  <div className={styles.metric}>
+                  {/* <div className={styles.metric}>
                     <p>10.000</p>
                     <Metros />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide className={styles.swiperCard}>
               <div className={styles.card}>
-                <div className={styles.img}></div>
+                <div className={styles.img}>
+                  <img
+                    src={NovaHolanda}
+                    alt="Obra Condomínio Residencial Nova Holanda"
+                  />
+                </div>
                 <div className={styles.subtitleCard}>
-                  <span>Obra 1</span>
+                  <span>Condomínio Nova Holanda</span>
                   <button>Ver mais</button>
                 </div>
                 <div className={styles.dataCard}>
                   <div className={styles.geo}>
                     <Map />
-                    <p>Sumaré</p>
+                    <p>Holambra</p>
                   </div>
-                  <div className={styles.metric}>
+                  {/* <div className={styles.metric}>
                     <p>10.000</p>
                     <Metros />
+                  </div> */}
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className={styles.swiperCard}>
+              <div className={styles.card}>
+                <div className={styles.img}>
+                  <img src={Monterrey} alt="Obra Condomínio Monterrey" />
+                </div>
+                <div className={styles.subtitleCard}>
+                  <span>Condomínio Monterrey</span>
+                  <button>Ver mais</button>
+                </div>
+                <div className={styles.dataCard}>
+                  <div className={styles.geo}>
+                    <Map />
+                    <p>Monte Mor</p>
                   </div>
+                  {/* <div className={styles.metric}>
+                    <p>10.000</p>
+                    <Metros />
+                  </div> */}
                 </div>
               </div>
             </SwiperSlide>
