@@ -31,7 +31,7 @@ export default function Container5({ href }) {
                 <Phone />
               </div>
               <div className={styles.dataCard}>
-                <h3>WhatsApp</h3>
+                <h2>WhatsApp</h2>
                 <a href={href}>
                   <p>(19) 9 9473-5471</p>
                 </a>
@@ -42,7 +42,7 @@ export default function Container5({ href }) {
                 <Instagram />
               </div>
               <div className={styles.dataCard}>
-                <h3>Instagram</h3>
+                <h2>Instagram</h2>
                 <a href="https://www.instagram.com/inox.concept?igsh=dWE3YWxlM2xwdmww">
                   <p>@inox.concept</p>
                 </a>

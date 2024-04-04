@@ -44,7 +44,7 @@
   gap: calc(10px * var(--factor));
 }
 
-.dataCard h3 {
+.dataCard h2 {
   color: var(--color3);
   font-size: calc(30px * var(--factor));
 }
