@@ -13,7 +13,7 @@ export default function Container5() {
         </h1>
         <div className={styles.content} data-aos="fade-up">
           <div className={styles.data}>
-            <div className={styles.card}>
+            {/* <div className={styles.card}>
               <div className={styles.icon}>
                 <Map />
               </div>
@@ -25,14 +25,14 @@ export default function Container5() {
                   cep 12374345
                 </p>
               </div>
-            </div>
+            </div> */}
             <div className={styles.card}>
               <div className={styles.icon}>
                 <Phone />
               </div>
               <div className={styles.dataCard}>
                 <h3>WhatsApp</h3>
-                <p>(19) 98752-3695</p>
+                <p>(19) 9 9473-5471</p>
               </div>
             </div>
             <div className={styles.card}>
@@ -41,11 +41,11 @@ export default function Container5() {
               </div>
               <div className={styles.dataCard}>
                 <h3>Instagram</h3>
-                <p>@seunickinsta</p>
+                <p>@inox.concept</p>
               </div>
             </div>
           </div>
-          <div className={styles.maps}></div>
+          {/* <div className={styles.maps}></div> */}
         </div>
       </div>
     </section>
