@@ -50,6 +50,7 @@
 }
 
 .dataCard p {
+  color: var(--color2);
   font-size: calc(24px * var(--factor));
   line-height: 1;
 }

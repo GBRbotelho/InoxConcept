@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import styles from "./Container1.module.css";
 
-export default function Container1() {
+export default function Container1({ href }) {
   const [time, setTime] = useState(false);
 
   useEffect(() => {
@@ -33,7 +33,9 @@ export default function Container1() {
           </p>
         </div>
         <div className={styles.button}>
-          <button>Fazer orçamento</button>
+          <a href={href}>
+            <button>Fazer orçamento</button>
+          </a>
         </div>
       </div>
     </section>

@@ -4,7 +4,7 @@ import Map from "../icons/Obras/Map";
 import Phone from "../icons/Contato/Phone";
 import Instagram from "../icons/Contato/Instagram";
 
-export default function Container5() {
+export default function Container5({ href }) {
   return (
     <section className={styles.section} id="contato">
       <div className={styles.container}>
@@ -32,7 +32,9 @@ export default function Container5() {
               </div>
               <div className={styles.dataCard}>
                 <h3>WhatsApp</h3>
-                <p>(19) 9 9473-5471</p>
+                <a href={href}>
+                  <p>(19) 9 9473-5471</p>
+                </a>
               </div>
             </div>
             <div className={styles.card}>
@@ -41,7 +43,9 @@ export default function Container5() {
               </div>
               <div className={styles.dataCard}>
                 <h3>Instagram</h3>
-                <p>@inox.concept</p>
+                <a href="https://www.instagram.com/inox.concept?igsh=dWE3YWxlM2xwdmww">
+                  <p>@inox.concept</p>
+                </a>
               </div>
             </div>
           </div>

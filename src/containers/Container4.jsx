@@ -33,7 +33,7 @@ export default function Container4() {
     <section className={styles.section} id="obras">
       <div className={styles.container} data-aos="fade-up">
         <h2 className={styles.title}>
-          Obras <span>Concluidas</span>
+          Projetos <span>Concluídos</span>
         </h2>
         <div className={styles.cards}>
           <Swiper

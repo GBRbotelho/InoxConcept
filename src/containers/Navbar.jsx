@@ -5,7 +5,7 @@ import Close from "../icons/Close";
 
 import Logo from "../assets/imgs/Logo.png";
 
-export default function Navbar() {
+export default function Navbar({ href }) {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisible] = useState(true);
   const [isDropdownOpen, setDropdownOpen] = useState(false);
@@ -59,7 +59,9 @@ export default function Navbar() {
         </ul>
       </nav>
       <div className={styles.divButton} data-aos="fade-down">
-        <button>Orçamento</button>
+        <a href={href}>
+          <button>Orçamento</button>
+        </a>
       </div>
       <div
         className={styles.menuHamburger}
@@ -77,7 +79,7 @@ export default function Navbar() {
           <li onClick={() => scrollToSection("obras")}>Obras</li>
           <li onClick={() => scrollToSection("contato")}>Contato</li>
           <li className={styles.button}>
-            <a>
+            <a href={href}>
               <button>Orçamento</button>
             </a>
           </li>

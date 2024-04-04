@@ -17,7 +17,7 @@ import gcvidro1 from "../assets/imgs/Servicos/gc vidro/1.webp";
 import gcvidro2 from "../assets/imgs/Servicos/gc vidro/2.webp";
 import gcvidro3 from "../assets/imgs/Servicos/gc vidro/3.webp";
 
-export default function Container3() {
+export default function Container3({ href }) {
   const [option, setOption] = useState("option1");
 
   const handleClick = (e) => {
@@ -119,7 +119,9 @@ export default function Container3() {
                   </p>
                 </div>
               </div>
-              <button>Fazer orçamento</button>
+              <a href={href}>
+                <button>Fazer orçamento</button>
+              </a>
             </div>
           </div>
         )}
@@ -188,7 +190,9 @@ export default function Container3() {
                   </p>
                 </div>
               </div>
-              <button>Fazer orçamento</button>
+              <a href={href}>
+                <button>Fazer orçamento</button>
+              </a>
             </div>
           </div>
         )}
@@ -255,7 +259,9 @@ export default function Container3() {
                   </p>
                 </div>
               </div>
-              <button>Fazer orçamento</button>
+              <a href={href}>
+                <button>Fazer orçamento</button>
+              </a>
             </div>
           </div>
         )}

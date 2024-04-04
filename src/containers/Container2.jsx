@@ -5,7 +5,7 @@ import IconImg from "../icons/Sobre/IconImg";
 //Import Img
 import SobreNos from "../assets/imgs/SobreNos.webp";
 
-export default function Container2() {
+export default function Container2({ href }) {
   const [time, setTime] = useState(false);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
@@ -42,7 +42,9 @@ export default function Container2() {
             comprometimento inabalável com cada serviço prestado aos nossos
             clientes.
           </p>
-          <button>Fazer orçamento</button>
+          <a href={href}>
+            <button>Fazer orçamento</button>
+          </a>
         </div>
       </div>
     </section>
