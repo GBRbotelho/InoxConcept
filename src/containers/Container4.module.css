@@ -79,6 +79,7 @@
 
 .geo p {
   font-size: calc(24px * var(--factor));
+  white-space: nowrap;
 }
 
 .geo svg {
