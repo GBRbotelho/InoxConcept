@@ -54,7 +54,7 @@ export default function Navbar({ href }) {
         <ul>
           <li onClick={() => scrollToSection("home")}>Home</li>
           <li onClick={() => scrollToSection("produtos")}>Produtos</li>
-          <li onClick={() => scrollToSection("obras")}>Obras</li>
+          <li onClick={() => scrollToSection("obras")}>Projetos</li>
           <li onClick={() => scrollToSection("contato")}>Contato</li>
         </ul>
       </nav>
