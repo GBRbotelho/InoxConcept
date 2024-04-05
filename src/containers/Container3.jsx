@@ -70,7 +70,7 @@ export default function Container3({ href }) {
                   <img src={gcvidro3} alt="Imagem em vidro" />
                 </div>
                 <div className={styles.dataImg}>
-                  <h1>+8</h1>
+                  <h1>+4</h1>
                   <p>de Experiencia</p>
                 </div>
               </div>
@@ -141,7 +141,7 @@ export default function Container3({ href }) {
                   <img src={gcinox2} alt="Imagem em Inox" />
                 </div>
                 <div className={styles.dataImg}>
-                  <h1>+8</h1>
+                  <h1>+4</h1>
                   <p>de Experiencia</p>
                 </div>
               </div>
@@ -212,7 +212,7 @@ export default function Container3({ href }) {
                   <img src={cinox1} alt="Imagem em Inox" />
                 </div>
                 <div className={styles.dataImg}>
-                  <h1>+8</h1>
+                  <h1>+4</h1>
                   <p>de Experiencia</p>
                 </div>
               </div>
