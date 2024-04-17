@@ -27,12 +27,16 @@
   transition: 1s;
 }
 
-.isLoaded {
+.isLoaded,
+.isLoaded img,
+.isLoaded svg {
   opacity: 1;
 }
 .divImg img {
   width: 100%;
   height: 100%;
+  opacity: 0;
+  transition: 1s;
 }
 
 .svg {
@@ -43,6 +47,8 @@
   top: calc(-100px * var(--factor));
   left: calc(-250px * var(--factor));
   z-index: -1;
+  opacity: 0;
+  transition: 1s;
 }
 
 .divData {
