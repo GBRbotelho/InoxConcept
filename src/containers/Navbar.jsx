@@ -3,7 +3,7 @@ import styles from "./Navbar.module.css";
 import Hamburger from "../icons/Hamburger";
 import Close from "../icons/Close";
 
-import Logo from "../assets/imgs/Logo.png";
+import Logo from "../assets/imgs/Logo.webp";
 
 export default function Navbar({ href }) {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
