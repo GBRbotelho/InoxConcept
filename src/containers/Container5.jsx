@@ -8,10 +8,10 @@ export default function Container5({ href }) {
   return (
     <section className={styles.section} id="contato">
       <div className={styles.container}>
-        <h1 className={styles.title} data-aos="fade-up">
+        <h1 className={styles.title} data-aos="zoom-in">
           Entre em <span>contato</span>
         </h1>
-        <div className={styles.content} data-aos="fade-up">
+        <div className={styles.content} data-aos="zoom-in">
           <div className={styles.data}>
             {/* <div className={styles.card}>
               <div className={styles.icon}>

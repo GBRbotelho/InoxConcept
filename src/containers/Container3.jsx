@@ -28,10 +28,10 @@ export default function Container3({ href }) {
   return (
     <section className={styles.section} id="produtos">
       <div className={styles.container}>
-        <h2 data-aos="fade-up" className={styles.title}>
+        <h2 data-aos="zoom-in-up" className={styles.title}>
           Nossos <span>Serviços</span>
         </h2>
-        <ul data-aos="fade-up">
+        <ul data-aos="zoom-in-up">
           <li
             id="option1"
             className={option === "option1" ? styles.active : ""}
@@ -55,7 +55,7 @@ export default function Container3({ href }) {
           </li>
         </ul>
         {option === "option1" && (
-          <div className={styles.content} data-aos="zoom-in">
+          <div className={styles.content} data-aos="zoom-in-up">
             <div className={styles.imgs}>
               <div className={styles.imgs1}>
                 <div className={styles.img1}>
@@ -126,7 +126,7 @@ export default function Container3({ href }) {
           </div>
         )}
         {option === "option2" && (
-          <div className={styles.content} data-aos="zoom-in">
+          <div className={styles.content} data-aos="zoom-in-up">
             <div className={styles.imgs}>
               <div className={styles.imgs1}>
                 <div className={styles.img1}>
@@ -197,7 +197,7 @@ export default function Container3({ href }) {
           </div>
         )}
         {option === "option3" && (
-          <div className={styles.content} data-aos="zoom-in">
+          <div className={styles.content} data-aos="zoom-in-up">
             <div className={styles.imgs}>
               <div className={styles.imgs1}>
                 <div className={styles.img1}>

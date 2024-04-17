@@ -30,7 +30,7 @@ export default function Container2({ href }) {
             <IconImg />
           </div>
         </div>
-        <div className={styles.divData} data-aos="fade-up-left">
+        <div className={styles.divData} data-aos="zoom-in-up">
           <h2>
             Sobre <span>Nós</span>
           </h2>

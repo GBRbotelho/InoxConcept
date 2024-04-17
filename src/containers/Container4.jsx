@@ -208,7 +208,7 @@ export default function Container4() {
 
   return (
     <section className={styles.section} id="obras">
-      <div className={styles.container} data-aos="fade-up">
+      <div className={styles.container} data-aos="zoom-in-up">
         <h2 className={styles.title}>
           Projetos <span>Concluídos</span>
         </h2>
