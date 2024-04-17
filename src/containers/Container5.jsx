@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Container5.module.css";
-import Map from "../icons/Obras/Map";
+// import Map from "../icons/Obras/Map";
 import Phone from "../icons/Contato/Phone";
 import Instagram from "../icons/Contato/Instagram";
 

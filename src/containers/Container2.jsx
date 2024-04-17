@@ -7,19 +7,6 @@ import SobreNos from "../assets/imgs/SobreNos.webp";
 
 export default function Container2({ href }) {
   const [time, setTime] = useState(false);
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-
-  const handleWindowResize = () => {
-    setWindowWidth(window.innerWidth);
-  };
-
-  useEffect(() => {
-    const delayedAction = () => {
-      setTime(true);
-    };
-    window.addEventListener("resize", handleWindowResize);
-    setTimeout(delayedAction, 1000);
-  }, []);
 
   return (
     <section className={styles.section} id="sobre">

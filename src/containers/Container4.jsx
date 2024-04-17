@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import Map from "../icons/Obras/Map";
-import Metros from "../icons/Obras/Metros";
+// import Metros from "../icons/Obras/Metros";
 import Modal from "../components/Modal";
 
 //Imgs
