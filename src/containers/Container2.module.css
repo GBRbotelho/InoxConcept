@@ -113,6 +113,10 @@
   .divData p {
     width: 90vw;
   }
+
+  .svg {
+    display: none;
+  }
 }
 
 @media (max-width: 390px) {
