@@ -9,6 +9,15 @@ export default function Navbar({ href }) {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisible] = useState(true);
   const [isDropdownOpen, setDropdownOpen] = useState(false);
+  const [time, setTime] = useState(false);
+
+  useEffect(() => {
+    const delayedAction = () => {
+      setTime(true);
+    };
+
+    setTimeout(delayedAction, 1500);
+  }, []);
 
   const toggleDropdown = () => {
     setDropdownOpen(!isDropdownOpen);
@@ -47,7 +56,7 @@ export default function Navbar({ href }) {
 
   return (
     <header className={`${styles.header} ${visible ? "" : styles.hidden}`}>
-      <div className={styles.divLogo} data-aos="fade-down">
+      <div className={`${styles.divLogo} ${time ? styles.isLoaded : null}`}>
         <img src={Logo} alt="Logo" />
       </div>
       <nav data-aos="fade-down">

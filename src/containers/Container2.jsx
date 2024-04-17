@@ -8,6 +8,14 @@ import SobreNos from "../assets/imgs/SobreNos.webp";
 export default function Container2({ href }) {
   const [time, setTime] = useState(false);
 
+  useEffect(() => {
+    const delayedAction = () => {
+      setTime(true);
+    };
+
+    setTimeout(delayedAction, 1500);
+  }, []);
+
   return (
     <section className={styles.section} id="sobre">
       <div className={styles.container}>
