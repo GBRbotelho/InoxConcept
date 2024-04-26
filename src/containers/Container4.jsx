@@ -422,8 +422,8 @@ export default function Container4() {
             </SwiperSlide>
           </Swiper>
         </div>
-        {images.length > 0 && <Modal images={images} setImages={setImages} />}
       </div>
+      {images.length > 0 && <Modal images={images} setImages={setImages} />}
     </section>
   );
 }
