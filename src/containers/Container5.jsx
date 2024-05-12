@@ -23,7 +23,7 @@ export default function Container5({ href }) {
                   R. José Ferreira da Silva, 434 - Quadra LE - Parque da
                   Figueira
                   <br />
-                  cep 12374345
+                  Campinas - SP, 13040-220
                 </p>
               </div>
             </div>
