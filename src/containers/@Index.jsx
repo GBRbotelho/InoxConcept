@@ -6,6 +6,8 @@ import Container2 from "./Container2.jsx";
 import Container3 from "./Container3.jsx";
 import Container4 from "./Container4.jsx";
 import Container5 from "./Container5.jsx";
+import { FloatingWhatsApp } from "react-floating-whatsapp";
+import Logo from "../assets/imgs/Logo.webp";
 
 export default function Index() {
   var href =
@@ -19,6 +21,14 @@ export default function Index() {
       <Container3 href={href} />
       <Container4 href={href} />
       <Container5 href={href} />
+      <FloatingWhatsApp
+        phoneNumber="5519994735471"
+        accountName="InoxConceito"
+        avatar={Logo}
+        statusMessage="Disponivel"
+        chatMessage="Olá! 🤝 Como posso ajuda-lo?"
+        placeholder="Escreva aqui"
+      />
     </main>
   );
 }
