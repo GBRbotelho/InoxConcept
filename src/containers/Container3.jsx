@@ -17,9 +17,9 @@ import gcvidro1 from "../assets/imgs/Servicos/gc vidro/1.webp";
 import gcvidro2 from "../assets/imgs/Servicos/gc vidro/2.webp";
 import gcvidro3 from "../assets/imgs/Servicos/gc vidro/3.webp";
 
-import box3 from "../assets/imgs/Servicos/box vidro/4 .webp";
+import box1 from "../assets/imgs/Servicos/box vidro/1.webp";
 import box2 from "../assets/imgs/Servicos/box vidro/2.webp";
-import box1 from "../assets/imgs/Servicos/box vidro/3.webp";
+import box3 from "../assets/imgs/Servicos/box vidro/3.webp";
 
 export default function Container3({ href }) {
   const [option, setOption] = useState("option1");
@@ -301,7 +301,7 @@ export default function Container3({ href }) {
               <h2>Box de Vidro</h2>
               <p>
                 Descubra a essência da sofisticação e da funcionalidade com
-                nosso Box de Banheiro de Vidro. Mais do que uma simples
+                nossa Box de Banheiro de Vidro. Mais do que uma simples
                 divisória, é a fusão perfeita entre elegância e praticidade. Com
                 acabamento impecável e durabilidade incomparável, nossa box
                 redefine o conceito de luxo moderno. Onde cada detalhe reflete o
