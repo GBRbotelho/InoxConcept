@@ -17,6 +17,10 @@ import gcvidro1 from "../assets/imgs/Servicos/gc vidro/1.webp";
 import gcvidro2 from "../assets/imgs/Servicos/gc vidro/2.webp";
 import gcvidro3 from "../assets/imgs/Servicos/gc vidro/3.webp";
 
+import box3 from "../assets/imgs/Servicos/box vidro/4 .webp";
+import box2 from "../assets/imgs/Servicos/box vidro/2.webp";
+import box1 from "../assets/imgs/Servicos/box vidro/3.webp";
+
 export default function Container3({ href }) {
   const [option, setOption] = useState("option1");
 
@@ -52,6 +56,13 @@ export default function Container3({ href }) {
             onClick={handleClick}
           >
             Corrimão em Inox
+          </li>
+          <li
+            id="option4"
+            className={option === "option4" ? styles.active : ""}
+            onClick={handleClick}
+          >
+            Box de Vidro
           </li>
         </ul>
         {option === "option1" && (
@@ -226,6 +237,78 @@ export default function Container3({ href }) {
                 acabamento impecável e durabilidade incomparável, elevamos o
                 conceito de elegância moderna. Onde cada linha reflete o padrão
                 que você busca para o seu espaço."
+              </p>
+              <div className={styles.iconsDiv}>
+                <div className={styles.icons}>
+                  <div className={styles.icon}>
+                    <Icon1 />
+                  </div>
+                  <p>
+                    Qualidade
+                    <br />
+                    garantida
+                  </p>
+                </div>
+                <div className={styles.icons}>
+                  <div className={styles.icon}>
+                    <Icon2 />
+                  </div>
+                  <p>
+                    Pagamento
+                    <br />
+                    simplificado
+                  </p>
+                </div>
+                <div className={styles.icons}>
+                  <div className={styles.icon}>
+                    <Icon3 />
+                  </div>
+                  <p>
+                    Materias
+                    <br />
+                    resistentes
+                  </p>
+                </div>
+              </div>
+              <a href={href}>
+                <button>Fazer orçamento</button>
+              </a>
+            </div>
+          </div>
+        )}
+        {option === "option4" && (
+          <div className={styles.content} data-aos="zoom-in-up">
+            <div className={styles.imgs}>
+              <div className={styles.imgs1}>
+                <div className={styles.img1}>
+                  <img src={box1} alt="Imagem em Inox" />
+                </div>
+                <div className={styles.img2}>
+                  <img src={box2} alt="Imagem em Inox" />
+                </div>
+              </div>
+              <div className={styles.imgs2}>
+                <div className={styles.img3}>
+                  <img src={box3} alt="Imagem em Inox" />
+                </div>
+                <div className={styles.dataImg}>
+                  <h1>+4</h1>
+                  <p>de Experiencia</p>
+                </div>
+              </div>
+            </div>
+            <div className={styles.data}>
+              <h2>Box de Vidro</h2>
+              <p>
+                Descubra a essência da sofisticação e da funcionalidade com
+                nossa Box de Banheiro de Vidro. Mais do que uma simples
+                divisória, é a fusão perfeita entre elegância e praticidade. Com
+                acabamento impecável e durabilidade incomparável, nossa box
+                redefine o conceito de luxo moderno. Onde cada detalhe reflete o
+                padrão de excelência que você deseja para o seu ambiente.
+                Transforme seu banheiro em um espaço de beleza e requinte com
+                nossa Box de Vidro, projetada para oferecer uma experiência
+                visual e funcional única.
               </p>
               <div className={styles.iconsDiv}>
                 <div className={styles.icons}>
