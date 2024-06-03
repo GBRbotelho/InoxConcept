@@ -301,7 +301,7 @@ export default function Container3({ href }) {
               <h2>Box de Vidro</h2>
               <p>
                 Descubra a essência da sofisticação e da funcionalidade com
-                nossa Box de Banheiro de Vidro. Mais do que uma simples
+                nosso Box de Banheiro de Vidro. Mais do que uma simples
                 divisória, é a fusão perfeita entre elegância e praticidade. Com
                 acabamento impecável e durabilidade incomparável, nossa box
                 redefine o conceito de luxo moderno. Onde cada detalhe reflete o
