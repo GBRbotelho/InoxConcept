@@ -44,8 +44,8 @@ export default function Container5({ href }) {
               </div>
               <div className={styles.dataCard}>
                 <h2>Instagram</h2>
-                <a href="https://www.instagram.com/inox.concept?igsh=dWE3YWxlM2xwdmww">
-                  <p>@inox.concept</p>
+                <a href="https://www.instagram.com/inox.conceito?igsh=MXJsM3o5b2prdWJyMg%3D%3D&utm_source=qr">
+                  <p>@inox.conceito</p>
                 </a>
               </div>
             </div>
